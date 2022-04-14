@@ -1,6 +1,6 @@
 class Notice {
 
-    static title = '풀스택 자바(JAVA)웹개발자(프론트엔드&백엔드)';
+    static title = '풀스택 웹개발자(JavaScript & nodeJS)';
     static left = '20px';
     static top = '10px';
     // fslightbox보다 1 작은 값.
@@ -12,7 +12,7 @@ class Notice {
         const iframeContainer = document.createElement('div');
         iframeContainer.setAttribute('id', 'pdfDocumentContainer');
         iframeContainer.style.setProperty("display", 'none', 'important');
-        
+
         const iframe = document.createElement('iframe');
         iframe.setAttribute('src', encodeURIComponent(pdf));
         iframe.setAttribute('id', 'pdfDocument');
@@ -20,7 +20,7 @@ class Notice {
         iframe.setAttribute('height', this.height);
         iframe.setAttribute('frameBorder', '0');
         iframeContainer.appendChild(iframe);
-        
+
         document.getElementsByTagName("body")[0].appendChild(iframeContainer);
 
         const container = document.createElement("div");
