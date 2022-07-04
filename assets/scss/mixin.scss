@@ -1,0 +1,39 @@
+//**************************************************************
+@mixin animate($animation, $duration, $method, $times,$delay) {
+    animation-name: $animation;
+    animation-duration: $duration;
+    animation-timing-function: $method;
+    animation-iteration-count: $times;
+    animation-delay: $delay
+}
+@mixin keyframes($name) {
+    @keyframes #{$name} {
+        @content;
+    }
+}
+@include keyframes (fade){
+    0%{
+        // transform: translate(0,0);
+        opacity: 1;
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        // transform: translate(0,50%);
+        opacity: 0;
+    }
+}
+
+@mixin mobile($screenWidht) {
+    @media (max-width:$screenWidht) {
+        @content;
+    }
+}
+
