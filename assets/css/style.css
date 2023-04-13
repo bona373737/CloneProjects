@@ -22,6 +22,7 @@ a {
 
 header {
   width: 100%;
+  min-width: 1200px;
   height: 70vh;
   text-align: left;
   color: white;
@@ -118,6 +119,7 @@ header .header_wrap .heading_wrap .heading {
 
 main {
   background-color: white;
+  height: 100%;
 }
 main .project {
   width: 100%;
@@ -144,7 +146,6 @@ main .project .content-wrap ul li {
   box-sizing: border-box;
   width: 20%;
   margin: 20px;
-  padding: 25px;
   background-color: white;
   border-radius: 5px;
   border: 0.2px solid #D6E4E5;
@@ -160,166 +161,32 @@ main .project .content-wrap ul li {
 main .project .content-wrap ul li:hover {
   transform: scale(1.02);
 }
-main .project .content-wrap ul li img {
-  height: 70%;
-  width: 100%;
-}
 main .project .content-wrap ul li a {
   color: black;
 }
-main .about {
+main .project .content-wrap ul li a img {
+  height: 70%;
   width: 100%;
-  height: 300px;
 }
-main .about .content-wrap {
+main .project .content-wrap ul li a .description {
   display: flex;
-  margin: auto;
-}
-main .about .content-wrap button {
-  background-color: white;
-  outline: none;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-}/*# sourceMappingURL=style.css.map */  line-height: 30px;
-  border-radius: 50%;
-  background-color: #BEBEBE;
-  color: black;
-  text-align: center;
-  margin: 0px 10px;
-}
-
-main section {
-  width: 80%;
-  margin: 80px auto;
-}
-main .img {
-  display: flex;
-  justify-content: space-between;
-}
-main h3 {
-  font-size: 30px;
-  font-weight: bold;
-  color: #0A3465;
-}
-main h1 {
-  font-size: 50px;
-  font-weight: bold;
-  margin: 20px 0px;
-}
-main section#tag-menu {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px 0px;
-  font-size: 20px;
-  font-weight: bold;
-}
-main section#tag-menu span {
-  border-right: 1px solid black;
-  padding: 0px 30px;
-}
-main section#tag-menu span:last-child {
-  padding: 0;
-  border: none;
-}
-main section#tag-menu span a {
-  color: #666666;
-}
-main section#tag-menu span a:hover {
-  color: aqua;
-}
-main section#img-content-wrap {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-main section#img-content-wrap .img-content {
-  width: -moz-min-content;
-  width: min-content;
-}
-main section#img-content-wrap .img-content .text {
-  margin: 20px 0px;
-}
-main section#img-content-wrap .img-content .text h6 {
-  font-size: 20px;
-  font-weight: bold;
-  color: #0A3465;
-  margin-bottom: 10px;
-}
-main section#img-content-wrap .img-content .text h4 {
-  font-size: 25px;
-  font-weight: bold;
-  color: #0A3465;
-}
-main section#site {
-  width: 100%;
-  background-color: #0A3465;
-  padding: 200px 0;
-}
-main section#site #site-wrap {
-  display: flex;
+  flex-direction: column;
   justify-content: center;
-}
-main section#site #site-text {
-  width: 400px;
-  color: white;
-  font-weight: bold;
-  margin: 0px 50px;
-}
-main section#site #site-text h1 {
-  font-size: 50px;
-  line-height: 90px;
-}
-main section#site #site-text h2 {
-  font-size: 20px;
-  line-height: 30px;
-}
-main section#site #site-text button {
-  padding: 10px 40px;
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 30px;
-  background-color: #666666;
-  color: white;
-  border: none;
-}
-main section#sns-wrap #sns-content {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-main section#sns-wrap .image-wrap {
-  position: relative;
-}
-main section#sns-wrap .hidden-text {
-  position: absolute;
-  z-index: 99999;
-  top: 25px;
-  left: 25px;
-  padding: 50px;
+  height: 30%;
   box-sizing: border-box;
-  width: 400px;
-  height: 400px;
-  background-color: #0A3465;
+  padding: 3px;
+}
+main .project .content-wrap ul li a .description .label {
+  width: 80px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 4px 6px;
   color: white;
-  font-size: 25px;
-  line-height: 35px;
-  visibility: hidden;
+  margin-bottom: 5px;
 }
-main section#sns-wrap .hidden-text i {
-  display: block;
-  box-sizing: border-box;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  padding: 0px 9px;
-  border-radius: 50%;
-  background-color: white;
-  margin-top: 50px;
-  color: #0A3465;
+main .project .content-wrap ul li a .description .publishing {
+  background-color: #497174;
 }
-main section#sns-wrap img {
-  margin-bottom: 60px;
-  width: 450px;
-  height: 450px;
+main .project .content-wrap ul li a .description .react {
+  background-color: #EB6440;
 }/*# sourceMappingURL=style.css.map */
