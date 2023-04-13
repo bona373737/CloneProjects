@@ -1,9 +1,12 @@
 *{
 
 }
-*a{
+a{
     text-decoration: none;
     color: black;
+}
+li{
+    list-style: none;
 }
 
 body{
@@ -110,7 +113,7 @@ main section#portfolio_list_wrap #portfolio_list li{
     height: 400px;
     background: white;
     float: left;
-    margin-right: 12px;
+    margin-right: 10px;
     margin-top: 20px;
 }
 main section#portfolio_list_wrap #portfolio_list li img{
@@ -127,6 +130,13 @@ main section#portfolio_list_wrap #portfolio_list li #portfolio_text{
     height: 40%;
     font-size: 18px;
     padding: 0 10px;
+}
+main section#portfolio_list_wrap #portfolio_list li #portfolio_text p{
+    display:-webkit-box; 
+    word-wrap:break-word; 
+    -webkit-line-clamp:2; 
+    -webkit-box-orient:vertical; 
+    overflow:hidden; 
 }
 main section#portfolio_list_wrap #pagination ul{
     padding: 50px 0px;
@@ -223,7 +233,8 @@ main section#charge h1{
 }
 main section#charge .option{
     display: inline-block;
-    border: 1px solid rgba(185,185,185,0.5) 
+    border: 1px solid rgba(185,185,185,0.5);
+    margin: auto;
 }
 main section#charge .option li{
     width: 210px;
@@ -235,6 +246,7 @@ main section#charge .option li{
 }
 main section#charge .option ul{
     opacity: 0.5;
+    padding: 0;
 }
 main section#charge .option ul:hover{
     opacity: 1;
