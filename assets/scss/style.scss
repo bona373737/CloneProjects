@@ -136,7 +136,7 @@ main{
             width: 80%;
             min-width: 1200px;
             margin:auto;
-            padding: 30px 0;
+            // padding: 30px 0;
             .counting{
                 text-align: right;
                 color: gray;
@@ -145,7 +145,7 @@ main{
             ul{
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: flex-start;
 
                 li{
                     @include mobile(600px){
@@ -156,7 +156,7 @@ main{
                     }
                     box-sizing: border-box;
                     width: 20%;
-                    margin: 20px;
+                    margin: 30px;
                     background-color: white;
                     border-radius: 5px;
                     border: 0.2px solid #D6E4E5;

@@ -131,7 +131,6 @@ main .project .content-wrap {
   width: 80%;
   min-width: 1200px;
   margin: auto;
-  padding: 30px 0;
 }
 main .project .content-wrap .counting {
   text-align: right;
@@ -140,12 +139,12 @@ main .project .content-wrap .counting {
 main .project .content-wrap ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 main .project .content-wrap ul li {
   box-sizing: border-box;
   width: 20%;
-  margin: 20px;
+  margin: 30px;
   background-color: white;
   border-radius: 5px;
   border: 0.2px solid #D6E4E5;
