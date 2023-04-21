@@ -144,6 +144,7 @@ main .project .content-wrap ul {
 main .project .content-wrap ul li {
   box-sizing: border-box;
   width: 20%;
+  height: 300px;
   margin: 30px;
   background-color: white;
   border-radius: 5px;
@@ -173,7 +174,7 @@ main .project .content-wrap ul li a .description {
   justify-content: center;
   height: 30%;
   box-sizing: border-box;
-  padding: 3px;
+  padding: 10px;
 }
 main .project .content-wrap ul li a .description .label {
   width: 80px;
@@ -181,7 +182,7 @@ main .project .content-wrap ul li a .description .label {
   border-radius: 10px;
   padding: 4px 6px;
   color: white;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 main .project .content-wrap ul li a .description .publishing {
   background-color: #497174;
